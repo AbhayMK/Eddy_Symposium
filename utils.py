@@ -52,7 +52,7 @@ def centroid_summary( centroids, rows=14, cols=4 ):
         ax[k].set_xticks([])
         ax[k].set_yticks([])
         ax[k].set_xlim(lambda_min,lambda_max)
-        ax[k].set_ylim(0,1)
+#         ax[k].set_ylim(0,1)
         ax[k].text( .02, .82, str(k), transform=ax[k].transAxes, size=15)
     plt.show()
     
